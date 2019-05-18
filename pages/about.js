@@ -1,9 +1,8 @@
-import Header from '../components/Header'
+import Layout from "../comps/MyLayout";
 export default function About() {
-    return (
-      <div>
-          <Header />
-        <p>This is the about page</p>
-      </div>
-    )
-  }
+  return (
+    <Layout>
+      <p>This is the about page</p>
+    </Layout>
+  );
+}
